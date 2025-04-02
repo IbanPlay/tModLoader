@@ -149,6 +149,11 @@ Mods: {
 				// DefaultSignText: Right-click me!
 				// MapEntry: Example Sign
 			}
+
+			BasicTileEntityTile: {
+				// MapEntry: Basic Tile Entity Tile
+				// StatusText: Filled: {0}%
+			}
 		}
 
 		Items: {
@@ -282,7 +287,7 @@ Mods: {
 				/* Tooltip:
 					'''
 					Used by the Clentaminator
-					Spreads the underworld
+					Spreads the example
 					''' */
 			}
 
@@ -1105,6 +1110,11 @@ Mods: {
 				// Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.ExampleWormHead.DisplayName}"
 			}
 
+			BasicTileEntityItem: {
+				// DisplayName: Basic Tile Entity Item
+				// Tooltip: Collects rain water. Right Click when full to claim a water bucket.
+			}
+
 			CorruptFossilTileItem: {
 				// DisplayName: Corrupt Fossil Tile Item
 				// Tooltip: ""
@@ -1137,7 +1147,11 @@ Mods: {
 
 			ExampleHellSolution: {
 				// DisplayName: Example Hell Solution
-				// Tooltip: ""
+				/* Tooltip:
+					'''
+					Used by the Clentaminator
+					Spreads the underworld
+					''' */
 			}
 		}
 
